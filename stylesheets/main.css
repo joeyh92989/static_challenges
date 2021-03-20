@@ -1,0 +1,67 @@
+/* this covers the whole page being white and default black text */
+body {
+  color: black;
+  background-color:  white;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  background-color:  maroon;
+  padding: 40px;
+}
+
+.headerLogo  {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.headerLogin {
+  text-align: right;
+  color: white;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  padding: 10px;
+}
+
+.navLinks {
+  color: white;
+  padding: 10px 10px;
+}
+
+/* this controls the container we will use flexbox on */
+.mainContainer {
+  display: flex;
+}
+/* This is the main body so it takes 60% of the screen size */
+.mainSection {
+  flex: 60%;
+  padding: 40px;
+  height: 100%;
+}
+
+
+/* This is the header used in multiple locations on the main page */
+.mainHeader  {
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+/* This is the other side of the main section so it takes 40% */
+.sideSwimLane {
+  flex: 40%;
+  padding: 40px;
+}
+
+.footerBar {
+  padding: 40px;
+  background-color: black;
+  color: white;
+}
